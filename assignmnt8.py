@@ -1,7 +1,7 @@
     #ASSIGNMENT-8
 #Q1. what is time tuple.
 #ans: We represent time in a way that’s easy for us to understand.
- # However, Python stores it in tuples.
+# However, Python stores it in tuples.
  
 # Index	Field	Domain of Values
 # 0	Year   (4 digits)	Ex.- 1995
@@ -13,29 +13,31 @@
 # 6	Day of Week	 0 to 6 (Monday to Sunday)
 # 7	Day of Year	 1 to 366 (Julian day)
 # 8	DST     	-1,0,1
+import time
+t=[time.gmtime(23)]
+print(t)
 
 
 #Q.2- Write a program to get formatted time.
 import time
-print(time.asctime(time.localtime(time.time())))
+print('the current time is:',time.time())
 
  #Q.3- Extract month from the time.
  #extracting month
- import datetime
+import datetime
 print(datetime.datetime.now().strftime('%m'))
 
  
  
  #Q.4- Extract day from the time.
- import datetime
-print(datetime.date.today())
-s=datetime.date.today()
-print(s.day)
+import datetime
+a=str('day')
+print(datetime.datetime.now().strftime('%a'))
 
 
 
  #Q.5- EXTRACT date from the time.
- import datetime
+import datetime
 print(datetime.date.today())
 s=datetime.date.today()
 print(s.day)
