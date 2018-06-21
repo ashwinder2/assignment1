@@ -26,7 +26,8 @@ for x in l:
 print(l)
 print(s)
  
-#4.form a list containingints, stringsand floats make thre lists to store them separately.
+#4.form a list containing ints, strings and floats make three
+ lists to store them separately.
 l=[]
 for x in range(0,3):
  x=int(input("enter number: "))
@@ -73,7 +74,7 @@ for i in range(0,10):
 	 
 	
 #7.
-d={}
+ d={}
 for x in range(5):
  keys=str(input("enter the keys: "))
  values=int(input("enter value items: "))
