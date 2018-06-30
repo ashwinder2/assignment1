@@ -46,16 +46,16 @@ n1 = int(input("Enter first number: "))
 n2 = int(input("Enter second number: "))
 
 if choice == '1':
-   print(num1,"+",num2,"=", add(num1,num2))
+   print(n1,"+",n2,"=", add(n1,n2))
 
 elif choice == '2':
-   print(num1,"-",num2,"=", subtract(num1,num2))
+   print(n1,"-",n2,"=", subtract(n1,n2))
 
 elif choice == '3':
-   print(num1,"*",num2,"=", multiply(num1,num2))
+   print(n1,"*",n2,"=", multiply(n1,n2))
 
 elif choice == '4':
-   print(num1,"/",num2,"=", divide(num1,num2))
+   print(n1,"/",n2,"=", divide(n1,n2))
    
 elif choice == '5':
    print(n1,"**",n2,"=", raisetopower(n1,n2))
